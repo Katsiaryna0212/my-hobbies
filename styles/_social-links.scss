@@ -1,0 +1,10 @@
+.social-links {
+    &__link {
+        text-decoration: none;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}
